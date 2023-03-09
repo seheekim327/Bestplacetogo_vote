@@ -1,0 +1,159 @@
+*{
+    background-color: rgb(254, 208, 244);
+    animation-name: example;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  
+}
+
+/* *{box-sizing:border-box;} */
+
+.body{
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   margin:0;
+   min-height:100vh;
+}
+
+@keyframes example {
+        0%   {background-color: rgb(254,208,244);}
+        25%  {background-color: rgb(223, 146, 219);}
+        50%  {background-color: rgb(244, 107, 187);}
+        100% {background-color: rgb(230, 207, 221);}
+  }
+
+.romantic{
+ text-align: center;
+}
+.love{
+    text-align: center; 
+}
+style
+.letter {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pagetwo {
+    text-align: center;
+}
+.myDiv {
+    
+    border: 10px outset rgb(195, 242, 251); 
+    background-color: rgb(232, 251, 244);
+    border-style: dashed;
+    text-align: center;
+}
+.pagethree {
+    text-align: center;
+}
+.flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        background-color: DodgerBlue;
+        text-align: center;
+      }
+      
+      .flex-container > div {
+        background-color: #f1f1f1;
+        width: 1350px;
+        margin: 20px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 20px;
+}
+
+.heart{
+    position:fixed;
+    top:-1vh;
+    transform:translateY(0);
+    animation:rain 3s linear forwards;
+    font-size:2rem;
+ }
+ 
+ @keyframes rain{
+    to{
+       transform:translateY(105vh);
+    }
+ }
+
+ /* page four  */
+
+ body{
+    text-align: center;
+  }
+  
+  hr{
+    color: lightpink;
+  }
+
+  p{
+    color: lightblue;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  button{
+    background-color: #000000;
+    font-size: 2em;
+    border-color: lightpink;
+    color: #00ccff;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+  }
+
+  #mylist{
+    text-align: left;
+    text-decoration: wavy;
+    color:darkmagenta;
+  }
+
+  * {
+    font-family: Arial, "Free Sans";
+}
+
+
+
+#container {
+    color: #fff;
+background:transparent;
+}
+#container #question {
+    display: block;
+    padding: 20px;
+    font-weight: bold;
+    letter-spacing: -3px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 40px;
+}
+#container div {
+    font-weight: bold;
+    letter-spacing: -3px;
+    background: pink;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 34px;
+    color: #ffffff;
+    border-left: 20px solid #333;
+    width: 400px;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0 0.5em 0.5em 0;
+    border-radius: 0 1.5em 1.5em 0;
+}
+#container div a {
+    border-radius: 0.3em;
+    text-decoration: none;
+    color: #ff00a6;
+    padding: 5px 15px;
+    background: rgb(255, 255, 255);
+    margin: 0 20px;
+}
+#container div a:hover {
+    color: rgb(255, 21, 72);
+}
+body {
+    margin: 0;
+    padding: 0;
+}
